@@ -32,7 +32,7 @@ async def get_weather(update: Update, context: ContextTypes.DEFAULT_TYPE):
         await update.message.reply_text("❌ Не вдалося підключитися до сайту для отримання даних.")
 
 def main():
-    TOKEN = '8119550119:AAEVmSjBYVIN8gITMcSsPLyaVte6y-2Gq8w'
+    TOKEN = 'TOKEN'
     
     app = ApplicationBuilder().token(TOKEN).build()
     
